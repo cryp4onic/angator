@@ -1,0 +1,8 @@
+<form [formGroup]="myForm">
+  <div>
+    <input type="text" formControlName="name"><br>
+    <input type="email" formControlName="email"><br>
+    <input type="text" formControlName="message">
+  </div>
+  <p>{{formattedMessage}}</p>
+</form>
